@@ -84,10 +84,12 @@ public class Exercise {
             System.out.println("Enter an integer.");
             in = c.nextInt();
             if (in!=0) {
-                System.out.println(in*=in);
+                System.out.println(in*=in); //// print(in * in) needs to be an expression, not an assignment
             }
         }while(in!=0);
 
 
     }
 }
+
+//// missing MCQ
